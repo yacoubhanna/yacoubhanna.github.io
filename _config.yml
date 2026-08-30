@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Yacoub Hanna | FGCU # the main title
+title: Yacoub Hanna # the main title
 
-tagline: Cybersecurity Researcher and Educator # it will display as the subtitle
+tagline: Visiting Assistant Professor at Florida Gulf Coast University # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -46,7 +46,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username # change to your Twitter homepage
-    - 
+    - https://scholar.google.com/citations?user=B484S-IAAAAJ&hl=en&oi=ao
     - https://orcid.org/0000-0002-8954-9336
     - https://www.linkedin.com/in/yacoubh/
     - https://github.com/yacoubhanna # change to your GitHub homepage
