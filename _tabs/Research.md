@@ -54,13 +54,15 @@ data packets traveling through the Internet can be easily sniffed. This threat e
 This project investigate the viability of these PQ algorithms in the Transport Layer Security (TLS) of powerconstrained IoT devices. Specifically, it focuses on two widely used IoT network protocol stacks, i.e., Bluetooth Low Energy (BLE) and Wi-Fi. We built a realistic IoT testbed running IP over BLE. Our evaluation considers the impact of several realistic factors for the first time, such as using a chain of certificates on the server side and incorporating certificate validation methods such as Online Certificate Status Protocol (OCSP) and Certificate Revocation Lists (CRL). We also evaluated the impact of mutual authentication between the server and the client. Utilizing the outcomes of this evaluation, we also proposed a novel approach for IoT devices to dynamically choose the most efficient KEM algorithm for TLS based on the device’s physical network interface. The performance results provide valuable insights with respect to the TLS latency and energy consumption of consumer IoT devices.
 
 
-<div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; width: 100%; align-items: center;">
+
+<div style="text-align: center; width: 100%; margin: 25px 0;">
 
   <img src="/assets/img/PQ-IoT.png"
-       alt="PQ-CKEM Architecture"
-       style="width: 100%; max-width: none; height: auto;">
+       alt="Post-Quantum IoT Testbed"
+       style="width: 65%; max-width: 750px; height: auto; display: block; margin: 0 auto;">
 
 </div>
+
 
 People: Yacoub Hanna, Jessica Bozhko, Samet Tonyali, Ricardo Harrilal-Parchment, Mumin Cebe, Kemal Akkaya.
 
@@ -85,13 +87,15 @@ Significant performance improvements in bandwidth and latency make 5G a suitable
 This project is the first to perform the integration of PQ TLS (PQTLS) protocols into 5G networks and offer a realistic performance evaluation. Our approach focused on bringing PQ-TLS within the 5G control plane (CP) without needing a major overhaul, thus ensuring communications’ interoperability even with legacy components of 5G, which may not support TLS. Specifically, we have transitioned the registration and authentication protocols for the core network functions and the user equipment (UE) by following a TLS tunneling approach using virtualization. We then evaluated the performance and feasibility of PQ-TLS in enhancing the security of 5G communications on an actual testbed. Our results demonstrated that while PQ algorithms introduce some overhead, they remain viable for 5G applications, particularly for protocols that can run on the core network.
 
 
-<div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; width: 100%; align-items: center;">
+
+<div style="text-align: center; width: 100%; margin: 25px 0;">
 
   <img src="/assets/img/PQ-5G.png"
-       alt="PQ-CKEM Architecture"
-       style="width: 100%; max-width: none; height: auto;">
+       alt="Post-Quantum 5G Testbed"
+       style="width: 65%; max-width: 750px; height: auto; display: block; margin: 0 auto;">
 
 </div>
+
 
 People: Yacoub Hanna, Diana Pineda, Maryna Veksler, Manish Paudel, Kemal Akkaya, Mila Anastasova, Reza Azarderakhsh.
 
@@ -113,11 +117,11 @@ To enable secure multicast/broadcast data exchange, there must be underlying mec
 
 This project focuses on achieving an efficient key management scheme to secure both unicast and broadcast communications in publish-subscribe (i.e., OPC UA) based Smart Grid applications.  For instance, one component of the project explores a secure key management scheme that integrates dynamic key generation with Shamir’s secret sharing to achieve efficient group key management. The other component investigates more efficient broadcasts for DDS protocol.
 
-<div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; width: 100%; align-items: center;">
+<div style="text-align: center; width: 100%; margin: 25px 0;">
 
   <img src="/assets/img/LoRaWAN.png"
-       alt="PQ-CKEM Architecture"
-       style="width: 100%; max-width: none; height: auto;">
+       alt="LoRaWAN Testbed"
+       style="width: 65%; max-width: 750px; height: auto; display: block; margin: 0 auto;">
 
 </div>
 
