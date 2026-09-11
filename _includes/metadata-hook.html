@@ -1,0 +1,16 @@
+<script>
+  (() => {
+    const initializedKey = 'yacoub-theme-initialized';
+    const themeKey = 'theme';
+
+    if (localStorage.getItem(initializedKey) === null) {
+      if (localStorage.getItem(themeKey) === null) {
+        localStorage.setItem(themeKey, 'light');
+        document.documentElement.dataset.bsTheme = 'light';
+        document.documentElement.setAttribute('data-theme-persisted', '');
+      }
+
+      localStorage.setItem(initializedKey, 'true');
+    }
+  })();
+</script>
