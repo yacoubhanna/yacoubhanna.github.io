@@ -184,20 +184,26 @@ order: 3
   justify-content: center;
 
   margin-top: 12px;
-  padding: 8px 15px;
+  padding: 8px 14px;
 
   border: 1px solid var(--link-color, #0d6efd);
-  border-radius: 10px;
+  border-radius: 8px;
 
   font-size: 0.85rem;
   font-weight: 600;
   line-height: 1.2;
 
   color: var(--link-color, #0d6efd);
-  background: rgba(13, 110, 253, 0.03);
+  background: transparent;
 
   text-decoration: none !important;
   box-sizing: border-box;
+  vertical-align: middle;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .pub-link:hover {
