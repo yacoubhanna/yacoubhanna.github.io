@@ -179,24 +179,25 @@ order: 3
 }
 
 .pub-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
   margin-top: 12px;
-  padding: 5px 12px;
+  padding: 8px 15px;
 
   border: 1px solid var(--link-color, #0d6efd);
-  border-radius: 6px;
+  border-radius: 10px;
 
   font-size: 0.85rem;
   font-weight: 600;
+  line-height: 1.2;
 
   color: var(--link-color, #0d6efd);
+  background: rgba(13, 110, 253, 0.03);
 
   text-decoration: none !important;
-
-  transition:
-    background 0.2s ease,
-    color 0.2s ease;
+  box-sizing: border-box;
 }
 
 .pub-link:hover {
@@ -347,7 +348,7 @@ order: 3
       </span>
 
       <span class="publication-subtitle">
-        Peer-reviewed journal publications
+        Elsevier Internet of Things, IEEE Transactions on Control Systems Technology
       </span>
 
     </span>
@@ -483,12 +484,22 @@ order: 3
       Large-Scale LEO Satellite Networks."
     </div>
 
+
     <div class="pub-venue">
       <em>IEEE International Symposium on Local and Metropolitan
       Area Networks (LANMAN)</em>, 2026.
       <br>
-      <strong>Best Paper Award.</strong>
+      <strong>Best Paper Award</strong>
     </div>
+
+    <a class="pub-link"
+       href="https://ieeexplore.ieee.org/abstract/document/11623619"
+       target="_blank"
+       rel="noopener noreferrer">
+       View Publication
+    </a>
+
+  
 
   </div>
 
