@@ -1,5 +1,7 @@
 ---
+layout: page
 title: Curriculum Vitae
+permalink: /curriculum-vitae/
 icon: fas fa-file-lines
 order: 5
 ---

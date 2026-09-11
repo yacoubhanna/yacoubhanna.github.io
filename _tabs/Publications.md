@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publications
+permalink: /publications/
 icon: fas fa-stream
 order: 3
 ---
